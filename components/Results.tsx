@@ -3,7 +3,6 @@
 import DataTable from "react-data-table-component";
 
 const Results = (list) => {
-  console.log("resultados para listar: ", list.list.body);
   const columns = [
     {
       name: 'Pais',
